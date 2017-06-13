@@ -15,6 +15,7 @@
 		062D30751EEFD45700A6AAD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062D30731EEFD45700A6AAD5 /* LaunchScreen.storyboard */; };
 		062D30801EEFD45700A6AAD5 /* CustomTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 062D307F1EEFD45700A6AAD5 /* CustomTextFieldTests.m */; };
 		062D308B1EEFD45700A6AAD5 /* CustomTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 062D308A1EEFD45700A6AAD5 /* CustomTextFieldUITests.m */; };
+		062D309D1EEFD4C600A6AAD5 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 062D309C1EEFD4C600A6AAD5 /* CustomTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		062D30861EEFD45700A6AAD5 /* CustomTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		062D308A1EEFD45700A6AAD5 /* CustomTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextFieldUITests.m; sourceTree = "<group>"; };
 		062D308C1EEFD45700A6AAD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062D309B1EEFD4C600A6AAD5 /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		062D309C1EEFD4C600A6AAD5 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				062D30691EEFD45700A6AAD5 /* AppDelegate.m */,
 				062D306B1EEFD45700A6AAD5 /* ViewController.h */,
 				062D306C1EEFD45700A6AAD5 /* ViewController.m */,
+				062D309B1EEFD4C600A6AAD5 /* CustomTextField.h */,
+				062D309C1EEFD4C600A6AAD5 /* CustomTextField.m */,
 				062D306E1EEFD45700A6AAD5 /* Main.storyboard */,
 				062D30711EEFD45700A6AAD5 /* Assets.xcassets */,
 				062D30731EEFD45700A6AAD5 /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 				062D306D1EEFD45700A6AAD5 /* ViewController.m in Sources */,
 				062D306A1EEFD45700A6AAD5 /* AppDelegate.m in Sources */,
 				062D30671EEFD45700A6AAD5 /* main.m in Sources */,
+				062D309D1EEFD4C600A6AAD5 /* CustomTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
